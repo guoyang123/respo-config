@@ -64,3 +64,5 @@ ftp:
   pass: Qinfo20180507@
 env:
   prod
+
+bus: test
