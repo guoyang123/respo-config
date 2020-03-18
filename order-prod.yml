@@ -65,4 +65,4 @@ ftp:
 env:
   prod
 
-bus: test3
+bus: test4
