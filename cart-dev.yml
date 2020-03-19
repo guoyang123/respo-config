@@ -1,0 +1,58 @@
+
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/shopping?characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      username: root
+      password: root
+      max-active: 20
+      max-wait: 6000
+      min-idle: 1
+      test-on-borrow: true
+      test-on-return: true
+mybatis:
+  mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
+  config-location: classpath:mybatis-config.xml
+
+
+user:
+  username: root
+
+upload:
+  path: D:\\ftpfile\\
+
+
+redis:
+  maxTotal: 8
+  maxIdle: 8
+  minIdle: 0
+  blockWhenExhausted: true
+  maxWaitMillis: 10000
+  testOnBorrow: true
+  testOnReturn: true
+  jmxEnabled: true
+  redisHost: 47.94.155.74
+  redisPort: 6379
+  redisPassword: Qinfo20180507
+  timeout: 1000
+
+
+
+#ftp:
+#  ip: 47.94.155.74
+#  user: neuedu
+#  pass: Qinfo20180507
+#  port: 21
+
+token:
+  timeout: 10
+
+
+ftp:
+  host: 47.94.155.74
+  user: ftpuser
+  pass: Qinfo20180507@
+
