@@ -1,5 +1,4 @@
-server:
-  port: 8085
+
 spring:
   rabbitmq:
     host: 47.94.155.74
