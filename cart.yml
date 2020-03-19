@@ -22,3 +22,7 @@ feign:
       default:
         connectTimeout: 3000 # feign 的超时设置
         readTimeout: 3000  
+
+logging:
+  level:
+     org.springframework.cloud.openfeign: debug
