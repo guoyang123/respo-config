@@ -5,3 +5,12 @@ logging:
   level:
     org.springframework.cloud.openfeign: debug
     org.springframework.cloud.bus: debug
+
+spring:
+  zipkin:
+    base-url: http://47.94.155.74:9411/
+  sleuth: 
+    sampler:
+      probability: 1
+
+
