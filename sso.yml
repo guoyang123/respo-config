@@ -1,10 +1,6 @@
 server:
   port: 8085
 spring:
-  application:
-    name: sso
-  profiles:
-    active: prod
   rabbitmq:
     host: 47.94.155.74
     port: 5672
